@@ -1,0 +1,133 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  margin-right: 10px;
+}
+nav span a{
+  color: seashell;
+}
+/* Banner */
+
+.banner {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+
+/* MAIN STYLE */
+.main {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 1000px;
+  position: relative;
+  top: 120px;
+}
+
+.imgbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.imgbox img{
+  height: 200px;
+  width: 300px;
+}
+.imgbox h3 {
+  margin-top: 10px;
+}
+.bannerbottom {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  align-items:  center;
+  justify-content: space-around;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 200px;
+}
+.wrapper{
+  width: 100%;
+}
+.location-heading {
+  position: relative;
+  margin-bottom: 15px;
+
+}
+.location-grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  justify-content: space-around;
+  opacity: 1;
+
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 200px;
+}
+.contact {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+footer .copy {
+  align-self: flex-start;
+  margin: 20px;
+  padding: 30px auto;
+}
